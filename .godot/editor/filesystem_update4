@@ -1,0 +1,16 @@
+res://scenes/enemy.tscn
+res://scripts/bullet.gd
+res://scripts/enemy.gd
+res://scenes/main.tscn
+res://scenes/hall.tscn
+res://scenes/right_zone.tscn
+res://scenes/bullet.tscn
+res://scenes/player.tscn
+res://scripts/hall.gd
+res://scenes/CharacterBody2D.gd
+res://scenes/up_turcia.tscn
+res://scripts/player.gd
+res://scripts/global.gd
+res://scripts/main.gd
+res://scripts/right_zone.gd
+res://scripts/up_turcia.gd

@@ -1,0 +1,371 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1707566419
+icon.svg::CompressedTexture2D::8400714220945547885::1707247952::1707247960::1::::<><>::
+Readme.md::TextFile::-1::1707247951::0::1::::<><>::
+::res://addons/::1707247952
+::res://addons/character-controller/::1707247952
+default_actions.gd::GDScript::-1::1707247951::0::1::::<>RefCounted<>::
+plugin.cfg::TextFile::-1::1707247952::0::1::::<><>::
+plugin.gd::GDScript::-1::1707247952::0::1::::<>EditorPlugin<>::
+::res://addons/character-controller/abilities/::1707247951
+crouch_ability_3d.gd::GDScript::-1::1707247951::0::1::::CrouchAbility3D<>MovementAbility3D<>::
+fly_ability_3d.gd::GDScript::-1::1707247951::0::1::::FlyAbility3D<>MovementAbility3D<>::
+jump_ability_3d.gd::GDScript::-1::1707247951::0::1::::JumpAbility3D<>MovementAbility3D<>::
+sprint_ability_3d.gd::GDScript::-1::1707247951::0::1::::SprintAbility3D<>MovementAbility3D<>::
+swim_ability_3d.gd::GDScript::-1::1707247951::0::1::::SwimAbility3D<>MovementAbility3D<>::
+walk_ability_3d.gd::GDScript::-1::1707247951::0::1::::WalkAbility3D<>MovementAbility3D<>::
+::res://addons/character-controller/core/::1707247951
+character_controller_3d.gd::GDScript::-1::1707247951::0::1::::CharacterController3D<>CharacterBody3D<>::
+controller.tscn::PackedScene::5377307921771732909::1707247951::0::1::::<><>::res://addons/character-controller/core/character_controller_3d.gd<>res://addons/character-controller/abilities/crouch_ability_3d.gd<>res://addons/character-controller/abilities/sprint_ability_3d.gd<>res://addons/character-controller/abilities/walk_ability_3d.gd<>res://addons/character-controller/abilities/jump_ability_3d.gd<>res://addons/character-controller/abilities/fly_ability_3d.gd<>res://addons/character-controller/abilities/swim_ability_3d.gd
+movement_ability_3d.gd::GDScript::-1::1707247951::0::1::::MovementAbility3D<>Node3D<>::
+::res://addons/character-controller/example/::1707247951
+::res://addons/character-controller/example/main/::1707247952
+level.gd::GDScript::-1::1707247952::0::1::::<>Node3D<>::
+level.tscn::PackedScene::6709078362179196370::1707247952::0::1::::<><>::res://addons/character-controller/example/main/level.gd<>uid://2oxdgu03lnbk
+player.gd::GDScript::-1::1707247952::0::1::::Player<>FPSController3D<>::
+player.tscn::PackedScene::1925402262208994200::1707247952::0::1::::<><>::uid://8oy3xm2sff8
+underwater.tres::Environment::4356672424861225408::1707247952::0::1::::<><>::
+water_area_3d.tscn::PackedScene::7717992147569255039::1707247952::0::1::::<><>::uid://wh8m6jb8ktpj
+::res://addons/character-controller/example/main/audios/::1707247951
+audio_interact.gd::GDScript::-1::1707247951::0::1::::AudioInteract<>Resource<>::
+player_audios.tscn::PackedScene::-1::1707247951::0::1::::<><>::res://addons/character-controller/example/main/audios/player_audios_3d.gd<>uid://boafje76qrf27
+player_audios_3d.gd::GDScript::-1::1707247951::0::1::::PlayerAudios3D<>Node3D<>::
+::res://addons/character-controller/example/main/audio_interacts/::1707247951
+grass_audio_interact.tres::Resource/Resource::3369384412692227122::1707247951::0::1::::<><>::res://addons/character-controller/example/main/audios/audio_interact.gd<>uid://dyj8811150sq5
+stone_audio_interact.tres::Resource/Resource::5403096028869302273::1707247951::0::1::::<><>::res://addons/character-controller/example/main/audios/audio_interact.gd<>uid://ds7ryp7lrjkbk
+water_audio_interact.tres::Resource/Resource::5580923376385799836::1707247951::0::1::::<><>::uid://btyn2jp6i5s8l
+wood_audio_interact.tres::Resource/Resource::8836169464708322071::1707247951::0::1::::<><>::uid://bfsapqnlf7can
+::res://addons/character-controller/example/main/geometry/::1707247952
+floor.tscn::PackedScene::4397311338069407997::1707247951::0::1::::<><>::uid://2ciy11rdndma
+wall.tscn::PackedScene::4853654808213864615::1707247952::0::1::::<><>::uid://ckvcdcn2iue87
+::res://addons/character-controller/example/main/jute-dh-steps/::1707247960
+stepdirt_1.wav::AudioStreamWAV::8864437697133206894::1707247952::1707247960::1::::<><>::
+stepdirt_2.wav::AudioStreamWAV::6672791992968310602::1707247952::1707247960::1::::<><>::
+stepdirt_3.wav::AudioStreamWAV::2258993346008511838::1707247952::1707247960::1::::<><>::
+stepdirt_4.wav::AudioStreamWAV::1122117381119536832::1707247952::1707247960::1::::<><>::
+stepdirt_5.wav::AudioStreamWAV::4566745299002460336::1707247952::1707247960::1::::<><>::
+stepdirt_6.wav::AudioStreamWAV::4307246502702952217::1707247952::1707247960::1::::<><>::
+stepdirt_7.wav::AudioStreamWAV::7145335494292230266::1707247952::1707247960::1::::<><>::
+stepdirt_8.wav::AudioStreamWAV::8079144815241737687::1707247952::1707247960::1::::<><>::
+stepsnow_1.wav::AudioStreamWAV::9123264726376053940::1707247952::1707247960::1::::<><>::
+stepsnow_2.wav::AudioStreamWAV::948351118907574681::1707247952::1707247960::1::::<><>::
+stepstone_1.wav::AudioStreamWAV::9053988825852504219::1707247952::1707247960::1::::<><>::
+stepstone_2.wav::AudioStreamWAV::6436880103695617074::1707247952::1707247960::1::::<><>::
+stepstone_3.wav::AudioStreamWAV::8265660793645307126::1707247952::1707247960::1::::<><>::
+stepstone_4.wav::AudioStreamWAV::972613906862801793::1707247952::1707247960::1::::<><>::
+stepstone_5.wav::AudioStreamWAV::2647910762203039019::1707247952::1707247960::1::::<><>::
+stepstone_6.wav::AudioStreamWAV::8349842004085576012::1707247952::1707247960::1::::<><>::
+stepstone_7.wav::AudioStreamWAV::8856836197134153287::1707247952::1707247960::1::::<><>::
+stepstone_8.wav::AudioStreamWAV::8489797210431412492::1707247952::1707247960::1::::<><>::
+stepwater_1.wav::AudioStreamWAV::3770391813557154629::1707247952::1707247960::1::::<><>::
+stepwater_2.wav::AudioStreamWAV::4376769880758783915::1707247952::1707247960::1::::<><>::
+stepwood_1.wav::AudioStreamWAV::2774551349328703493::1707247952::1707247960::1::::<><>::
+stepwood_2.wav::AudioStreamWAV::7029418266315163908::1707247952::1707247960::1::::<><>::
+::res://addons/character-controller/example/main/materials/::1707247952
+bricks.tres::StandardMaterial3D::2614118317686843845::1707247952::0::1::::<><>::uid://bqmq2qs2ybrg5
+grass.tres::StandardMaterial3D::1899757535279787740::1707247952::0::1::::<><>::uid://cbkig6ttx0fxg
+leaves.tres::StandardMaterial3D::7075384398223648741::1707247952::0::1::::<><>::uid://bkajhta5rmbdk
+rock.tres::StandardMaterial3D::1034366759648854715::1707247952::0::1::::<><>::uid://m5us13vug6au
+water.tres::StandardMaterial3D::1560631936820327187::1707247952::0::1::::<><>::uid://bvvc2rijdu6hy
+wood.tres::StandardMaterial3D::5518208654336425554::1707247952::0::1::::<><>::uid://q3ivnhsfep4v
+::res://addons/character-controller/example/main/physics/::1707247952
+grass.tres::PhysicsMaterial::-1::1707247952::0::1::::<><>::
+stone.tres::PhysicsMaterial::3111369218624369790::1707247952::0::1::::<><>::
+water.tres::PhysicsMaterial::-1::1707247952::0::1::::<><>::
+wood.tres::PhysicsMaterial::-1::1707247952::0::1::::<><>::
+::res://addons/character-controller/example/main/textures/::1707247960
+brickwall_g2.png::CompressedTexture2D::1515450667814646271::1707247952::1707247960::1::::<><>::
+brickwall_g.png::CompressedTexture2D::3088869072895563428::1707247952::1707247960::1::::<><>::
+grass2.png::CompressedTexture2D::7891242627728099312::1707247952::1707247960::1::::<><>::
+grass.png::CompressedTexture2D::4864172097740529664::1707247952::1707247960::1::::<><>::
+leaves.png::CompressedTexture2D::3535235272709001622::1707247952::1707247960::1::::<><>::
+rock2.png::CompressedTexture2D::8505681805164495372::1707247952::1707247960::1::::<><>::
+rock.png::CompressedTexture2D::905445350266568992::1707247952::1707247960::1::::<><>::
+water01.png::CompressedTexture2D::3903908889017139314::1707247952::1707247960::1::::<><>::
+wood.png::CompressedTexture2D::1181348007378204059::1707247952::1707247960::1::::<><>::
+::res://addons/character-controller/example/main/textures/Free DEMO Pixel Skies Background pack by Digital Moons/::1707247960
+demo01_PixelSky.png::CompressedTexture2D::1307253610755651095::1707247952::1707247960::1::::<><>::
+ReadMe.txt::TextFile::-1::1707247952::0::1::::<><>::
+::res://addons/character-controller/fps/::1707247952
+fps_controller_3d.gd::GDScript::-1::1707247952::0::1::::FPSController3D<>CharacterController3D<>::
+fps_controller_3d.tscn::PackedScene::69018869602745823::1707247952::0::1::::<><>::uid://ciu2qgckgu5sr
+head_movement_3d.gd::GDScript::-1::1707247952::0::1::::HeadMovement3D<>Marker3D<>::
+::res://addons/character-controller/fps/bob/::1707247952
+bob_curve.tres::Curve::-1::1707247952::0::1::::<><>::
+head_bob.gd::GDScript::-1::1707247952::0::1::::HeadBob<>Node<>::
+jump_curve.tres::Resource::-1::1707247952::0::1::::<><>::res://addons/character-controller/fps/bob/timed_bob_curve.gd
+timed_bob_curve.gd::GDScript::-1::1707247952::0::1::::TimedBobCurve<>Resource<>::
+::res://addons/expander/::1707247964
+expander.gd::GDScript::-1::1707247952::0::1::::<>EditorPlugin<>::
+expander.tres::Shortcut::6412897749092883435::1707247964::0::1::::<><>::
+plugin.cfg::TextFile::-1::1707247952::0::1::::<><>::
+::res://scenes/::1707567606
+bullet.tscn::PackedScene::1519841127918973456::1707567606::0::1::::<><>::res://scripts/bullet.gd<>res://scripts/CharacterBody2D.gd<>uid://dbk4jfxybgj3b::::res://textures/pylya.png
+death_wish.tscn::PackedScene::1355294774072280112::1707247952::0::1::::<><>::res://scripts/death_wish.gd
+enemy.tscn::PackedScene::3794368234413535804::1707567606::0::1::::<><>::uid://bhfmmg7kvpa75::::res://textures/Bot Wheel/move with FX.png<>res://scripts/enemy.gd<>uid://dhpb1p5w77j82::::res://textures/Bot Wheel/shoot with FX.png<>uid://1b3xrvqpw6qd::::res://textures/Bot Wheel/static idle.png<>uid://c05qef80epxsf::::res://textures/Bot Wheel/wake.png
+hall.tscn::PackedScene::6820430917601269669::1707567605::0::1::::<><>::uid://bkeq615dclr1::::res://scenes/tile_map.tscn<>res://scripts/hall.gd<>uid://dhca874ad8q4v::::res://scenes/player.tscn<>uid://cm0tt6arn8bg0::::res://scenes/transition.tscn<>uid://51go7dd367ty::::res://textures/1614413145_55-p-prozrachnii-temnii-fon-png-78.png<>uid://bucaxqfyc3ggy::::res://scenes/enemy.tscn
+main.tscn::PackedScene::4964939241212051697::1707567605::0::1::::<><>::uid://bkeq615dclr1::::res://scenes/tile_map.tscn<>res://scripts/main.gd<>uid://dhca874ad8q4v::::res://scenes/player.tscn<>uid://cm0tt6arn8bg0::::res://scenes/transition.tscn<>uid://51go7dd367ty::::res://textures/1614413145_55-p-prozrachnii-temnii-fon-png-78.png
+player.tscn::PackedScene::7654773368804369191::1707567606::0::1::::<><>::uid://26x38ags4mfe::::res://textures/BlueWizard/2BlueWizardIdle/Chara - BlueIdle00000.png<>res://scripts/player.gd
+right_zone.tscn::PackedScene::8961968496146052955::1707567605::0::1::::<><>::res://scripts/right_zone.gd<>uid://bkeq615dclr1::::res://scenes/tile_map.tscn<>uid://dhca874ad8q4v::::res://scenes/player.tscn<>uid://51go7dd367ty::::res://textures/1614413145_55-p-prozrachnii-temnii-fon-png-78.png<>uid://cm0tt6arn8bg0::::res://scenes/transition.tscn
+Start.tscn::PackedScene::981591136202564623::1707247952::0::1::::<><>::res://scripts/start.gd
+tile_map.tscn::PackedScene::91105731608107272::1707247952::0::1::::<><>::uid://ba8s33gyln5je
+transition.tscn::PackedScene::5667906116855768417::1707247952::0::1::::<><>::res://scripts/transition.gd
+up_turcia.tscn::PackedScene::7923067564266666498::1707567605::0::1::::<><>::uid://bkeq615dclr1::::res://scenes/tile_map.tscn<>res://scripts/up_turcia.gd<>uid://dhca874ad8q4v::::res://scenes/player.tscn<>uid://51go7dd367ty::::res://textures/1614413145_55-p-prozrachnii-temnii-fon-png-78.png<>uid://cm0tt6arn8bg0::::res://scenes/transition.tscn
+::res://scripts/::1707566034
+bullet.gd::GDScript::-1::1707562095::0::1::::<>Area2D<>::
+CharacterBody2D.gd::GDScript::-1::1707562095::0::1::::<>CharacterBody2D<>::
+death_wish.gd::GDScript::-1::1707247952::0::1::::<>Control<>::
+enemy.gd::GDScript::-1::1707561203::0::1::::<>CharacterBody2D<>::
+global.gd::GDScript::-1::1707564635::0::1::::<>Node<>::
+hall.gd::GDScript::-1::1707564758::0::1::::<>Node2D<>::
+main.gd::GDScript::-1::1707565492::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1707564329::0::1::::<>CharacterBody2D<>::
+right_zone.gd::GDScript::-1::1707564758::0::1::::<>Node2D<>::
+start.gd::GDScript::-1::1707247952::0::1::::<>Control<>::
+transition.gd::GDScript::-1::1707247952::0::1::::<>CanvasLayer<>::
+up_turcia.gd::GDScript::-1::1707566034::0::1::::<>Node2D<>::
+::res://textures/::1707567915
+2103f59ae56c8073e826c04c2ea7215c.jpg::CompressedTexture2D::1322121082054445641::1707247952::1707247960::1::::<><>::
+1614413145_55-p-prozrachnii-temnii-fon-png-78.png::CompressedTexture2D::2159730119374390646::1707247952::1707247960::1::::<><>::
+pylya (1).png::CompressedTexture2D::1709153413907281478::1707567874::1707567927::1::::<><>::
+Space-station._32_2.png::CompressedTexture2D::2455689538704533446::1707247952::1707247960::1::::<><>::
+::res://textures/BlueWizard/::1707247952
+::res://textures/BlueWizard/2BlueWizardIdle/::1707247960
+Chara - BlueIdle00000.png::CompressedTexture2D::1960542715234068390::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00001.png::CompressedTexture2D::46615587039215486::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00002.png::CompressedTexture2D::705234325601827104::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00003.png::CompressedTexture2D::1456617201253351668::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00004.png::CompressedTexture2D::7795940653945845915::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00005.png::CompressedTexture2D::9096767102749920361::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00006.png::CompressedTexture2D::1208756741864354765::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00007.png::CompressedTexture2D::1127789830227584071::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00008.png::CompressedTexture2D::2322736846186493520::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00009.png::CompressedTexture2D::850595318329443372::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00010.png::CompressedTexture2D::6714076628050189880::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00011.png::CompressedTexture2D::6439196881375108774::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00012.png::CompressedTexture2D::248938068538615637::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00013.png::CompressedTexture2D::2241174174769971158::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00014.png::CompressedTexture2D::430725623698838594::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00015.png::CompressedTexture2D::5005150175873144125::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00016.png::CompressedTexture2D::1810577827323802188::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00017.png::CompressedTexture2D::6369764747431482481::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00018.png::CompressedTexture2D::8770823387675152050::1707247952::1707247960::1::::<><>::
+Chara - BlueIdle00019.png::CompressedTexture2D::3924544644760160163::1707247952::1707247960::1::::<><>::
+::res://textures/Bot Wheel/::1707247960
+charge.png::CompressedTexture2D::1872458992502677822::1707247952::1707247960::1::::<><>::
+damaged.png::CompressedTexture2D::628900249283638065::1707247952::1707247960::1::::<><>::
+death.png::CompressedTexture2D::5030566674671696478::1707247952::1707247960::1::::<><>::
+GAS dash FX.png::CompressedTexture2D::9067751337165411976::1707247952::1707247960::1::::<><>::
+GAS dash with FX.png::CompressedTexture2D::7140318125669367858::1707247952::1707247960::1::::<><>::
+move FX.png::CompressedTexture2D::7837770266003769008::1707247952::1707247960::1::::<><>::
+move with FX.png::CompressedTexture2D::2888814876426533094::1707247952::1707247960::1::::<><>::
+move without FX.png::CompressedTexture2D::8041475271183212326::1707247952::1707247960::1::::<><>::
+shoot FX.png::CompressedTexture2D::2012356098292878670::1707247952::1707247960::1::::<><>::
+shoot with FX.png::CompressedTexture2D::7681657605728716257::1707247952::1707247960::1::::<><>::
+shoot without FX.png::CompressedTexture2D::6621097899410892269::1707247952::1707247960::1::::<><>::
+static idle.png::CompressedTexture2D::1828716387485933439::1707247952::1707247960::1::::<><>::
+wake.png::CompressedTexture2D::6590472720755832157::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/::1707247952
+public-license.txt::TextFile::-1::1707247952::0::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/::1707247960
+preview-alien-environment.png::CompressedTexture2D::3596075414729174894::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers/::1707247960
+back-structures.png::CompressedTexture2D::4252190709549006518::1707247952::1707247960::1::::<><>::
+background.png::CompressedTexture2D::5557231004472849137::1707247952::1707247960::1::::<><>::
+tileset.png::CompressedTexture2D::7500899288140926899::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/another-world/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/another-world/PNG/::1707247960
+another-world-PREVIEW.png::CompressedTexture2D::8311754615621008634::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/another-world/PNG/layered/::1707247960
+another-world-tileset.png::CompressedTexture2D::9206200591118704543::1707247952::1707247960::1::::<><>::
+back-towers.png::CompressedTexture2D::249297378849661707::1707247952::1707247960::1::::<><>::
+composed-bg.png::CompressedTexture2D::5952239773437197996::1707247952::1707247960::1::::<><>::
+sky.png::CompressedTexture2D::8994798281964890564::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/another-world/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/bulkhead-walls/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/bulkhead-walls/PNG/::1707247960
+bg-wall-with-supports.png::CompressedTexture2D::8104210799852523241::1707247952::1707247960::1::::<><>::
+bg-wall.png::CompressedTexture2D::8159878989513130586::1707247952::1707247960::1::::<><>::
+floor.png::CompressedTexture2D::7539949959277557427::1707247952::1707247960::1::::<><>::
+foreground.png::CompressedTexture2D::4970753681405113654::1707247952::1707247960::1::::<><>::
+preview-bulkhead-walls-v2.png::CompressedTexture2D::527889301904346653::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/bulkhead-walls/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-corridor-files/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-corridor-files/PNG/::1707247960
+cyberpunk-corridor-PREVIEW.png::CompressedTexture2D::495171648622114884::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-corridor-files/PNG/layers/::1707247960
+back.png::CompressedTexture2D::1248123258574457364::1707247952::1707247960::1::::<><>::
+cyberpunk-corridor-foreground.png::CompressedTexture2D::8603491903851820690::1707247952::1707247960::1::::<><>::
+cyberpunk-corridor.png::CompressedTexture2D::6966449971321264690::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-corridor-files/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-prop-files/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-prop-files/PNG/::1707247960
+big-computer.png::CompressedTexture2D::332254673757835238::1707247952::1707247960::1::::<><>::
+cryo-pod.png::CompressedTexture2D::2651700145086203167::1707247952::1707247960::1::::<><>::
+cyberpunk-props-preview.png::CompressedTexture2D::5228535692268193279::1707247952::1707247960::1::::<><>::
+elevator-track.png::CompressedTexture2D::2439972981415898443::1707247952::1707247960::1::::<><>::
+elevator.png::CompressedTexture2D::1460988074935243348::1707247952::1707247960::1::::<><>::
+hanging-terminal.png::CompressedTexture2D::3405633361142092504::1707247952::1707247960::1::::<><>::
+server-gabinetes.png::CompressedTexture2D::7107394909486124287::1707247952::1707247960::1::::<><>::
+small-terminal.png::CompressedTexture2D::4701768594712354496::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-prop-files/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-environment-background-files/::1707247960
+preview-sci-fi-environment-tileset.png::CompressedTexture2D::3844692194930996201::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-environment-background-files/PNG/::1707247960
+back.png::CompressedTexture2D::4040999884772274261::1707247952::1707247960::1::::<><>::
+sci-fi-environment-tileset.png::CompressedTexture2D::8879810651677180333::1707247952::1707247960::1::::<><>::
+sky.png::CompressedTexture2D::3855835712709229653::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-environment-background-files/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-interior-paltform/::1707247959
+preview-sci-fi-interior-platform.png::CompressedTexture2D::1200989351312761966::1707247952::1707247959::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-interior-paltform/PNG/::1707247960
+background.png::CompressedTexture2D::4939696173382008295::1707247952::1707247960::1::::<><>::
+tile-set-sci-fi-interior-platform.png::CompressedTexture2D::731700429424329137::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Environments/sci-fi-interior-paltform/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/GIFS/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/sprites/::1707247960
+alien-enemy-flying1.png::CompressedTexture2D::5653548225022219014::1707247952::1707247959::1::::<><>::
+alien-enemy-flying2.png::CompressedTexture2D::1998577056222348187::1707247952::1707247959::1::::<><>::
+alien-enemy-flying3.png::CompressedTexture2D::7403748800510202442::1707247952::1707247959::1::::<><>::
+alien-enemy-flying4.png::CompressedTexture2D::4461246461628554735::1707247952::1707247959::1::::<><>::
+alien-enemy-flying5.png::CompressedTexture2D::7258618253563033905::1707247952::1707247959::1::::<><>::
+alien-enemy-flying6.png::CompressedTexture2D::603909520831064050::1707247952::1707247960::1::::<><>::
+alien-enemy-flying7.png::CompressedTexture2D::6027287010024503135::1707247952::1707247960::1::::<><>::
+alien-enemy-flying8.png::CompressedTexture2D::5652112106929085066::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/PNG/::1707247960
+alien-enemy-idle.png::CompressedTexture2D::6630117490263480013::1707247952::1707247960::1::::<><>::
+alien-enemy-walk.png::CompressedTexture2D::7081568031398131402::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/Gif Previews/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/::1707247960
+bipedal-unit.png::CompressedTexture2D::3114149783380795233::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/::1707247960
+bipedal-unit1.png::CompressedTexture2D::328019302296204143::1707247952::1707247960::1::::<><>::
+bipedal-unit2.png::CompressedTexture2D::1340136436377058428::1707247952::1707247960::1::::<><>::
+bipedal-unit3.png::CompressedTexture2D::6862352553685606914::1707247952::1707247960::1::::<><>::
+bipedal-unit4.png::CompressedTexture2D::2186368089706841661::1707247952::1707247960::1::::<><>::
+bipedal-unit5.png::CompressedTexture2D::451844241855122149::1707247952::1707247960::1::::<><>::
+bipedal-unit6.png::CompressedTexture2D::5213322734131396029::1707247952::1707247960::1::::<><>::
+bipedal-unit7.png::CompressedTexture2D::5488098180213731715::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/::1707247960
+Layer-1.png::CompressedTexture2D::5915448693388623837::1707247952::1707247960::1::::<><>::
+Layer-2.png::CompressedTexture2D::432300355696312526::1707247952::1707247960::1::::<><>::
+Layer-3.png::CompressedTexture2D::5849185040371124158::1707247952::1707247960::1::::<><>::
+Layer-4.png::CompressedTexture2D::5974754643006296852::1707247952::1707247960::1::::<><>::
+Layer-5.png::CompressedTexture2D::4718766958240752316::1707247952::1707247960::1::::<><>::
+Layer-6.png::CompressedTexture2D::888575668578980407::1707247952::1707247959::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/::1707247959
+Layer-1.png::CompressedTexture2D::1508626591001325465::1707247952::1707247959::1::::<><>::
+Layer-2.png::CompressedTexture2D::6150748145348386216::1707247952::1707247959::1::::<><>::
+Layer-3.png::CompressedTexture2D::9215933490162884801::1707247952::1707247959::1::::<><>::
+Layer-4.png::CompressedTexture2D::73780585090184133::1707247952::1707247959::1::::<><>::
+Layer-5.png::CompressedTexture2D::559495510531289649::1707247952::1707247959::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/draw gun/::1707247959
+Layer-1.png::CompressedTexture2D::9186568375038937776::1707247952::1707247959::1::::<><>::
+Layer-2.png::CompressedTexture2D::5311171128307889170::1707247952::1707247959::1::::<><>::
+Layer-3.png::CompressedTexture2D::6364648413131974884::1707247952::1707247959::1::::<><>::
+Layer-4.png::CompressedTexture2D::5186130877485788133::1707247952::1707247959::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/gun-walk/::1707247959
+Layer-1.png::CompressedTexture2D::8473798748124756052::1707247952::1707247959::1::::<><>::
+Layer-2.png::CompressedTexture2D::2275076039434255746::1707247952::1707247959::1::::<><>::
+Layer-3.png::CompressedTexture2D::7157338070026692236::1707247952::1707247959::1::::<><>::
+Layer-4.png::CompressedTexture2D::5878541099019978452::1707247952::1707247959::1::::<><>::
+Layer-5.png::CompressedTexture2D::6735629197264980446::1707247952::1707247959::1::::<><>::
+Layer-6.png::CompressedTexture2D::1884090725322147360::1707247952::1707247959::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/punch/::1707247959
+Layer-1.png::CompressedTexture2D::9191123397115305269::1707247952::1707247959::1::::<><>::
+Layer-2.png::CompressedTexture2D::2230633397088368453::1707247952::1707247959::1::::<><>::
+Layer-3.png::CompressedTexture2D::6780336004032060618::1707247952::1707247959::1::::<><>::
+Layer-4.png::CompressedTexture2D::7287081331369305764::1707247952::1707247959::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/shot/::1707247959
+Layer-1.png::CompressedTexture2D::2150437102084529456::1707247952::1707247959::1::::<><>::
+Layer-2.png::CompressedTexture2D::2289345547491058697::1707247952::1707247959::1::::<><>::
+Layer-3.png::CompressedTexture2D::4526925707509103666::1707247952::1707247959::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/walk/::1707247960
+Layer-1.png::CompressedTexture2D::4688105128330501954::1707247952::1707247959::1::::<><>::
+Layer-2.png::CompressedTexture2D::4987568296294554917::1707247952::1707247960::1::::<><>::
+Layer-3.png::CompressedTexture2D::4762708375403637559::1707247952::1707247960::1::::<><>::
+Layer-4.png::CompressedTexture2D::7044418393491080056::1707247952::1707247960::1::::<><>::
+Layer-5.png::CompressedTexture2D::1324132888796802318::1707247952::1707247960::1::::<><>::
+Layer-6.png::CompressedTexture2D::8478842474124353206::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/::1707247960
+crouch.png::CompressedTexture2D::4242035461438592854::1707247952::1707247960::1::::<><>::
+death.png::CompressedTexture2D::126590998395694522::1707247952::1707247960::1::::<><>::
+draw-gun.png::CompressedTexture2D::9087164385131792215::1707247952::1707247960::1::::<><>::
+gun-walk.png::CompressedTexture2D::4095613394815008702::1707247952::1707247960::1::::<><>::
+punch.png::CompressedTexture2D::6605687230503258632::1707247952::1707247960::1::::<><>::
+shot.png::CompressedTexture2D::2391757983036059581::1707247952::1707247960::1::::<><>::
+walk.png::CompressedTexture2D::7852996273515748009::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/GIF/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites/::1707247960
+explosion-animation1.png::CompressedTexture2D::9188322735860838497::1707247952::1707247960::1::::<><>::
+explosion-animation2.png::CompressedTexture2D::5571555043929597231::1707247952::1707247960::1::::<><>::
+explosion-animation3.png::CompressedTexture2D::4049550653878210671::1707247952::1707247960::1::::<><>::
+explosion-animation4.png::CompressedTexture2D::8810107169037010349::1707247952::1707247960::1::::<><>::
+explosion-animation5.png::CompressedTexture2D::7534114410792554697::1707247952::1707247960::1::::<><>::
+explosion-animation6.png::CompressedTexture2D::7989940036808230530::1707247952::1707247960::1::::<><>::
+explosion-animation7.png::CompressedTexture2D::1509915342729003239::1707247952::1707247960::1::::<><>::
+explosion-animation8.png::CompressedTexture2D::4932980839775429150::1707247952::1707247960::1::::<><>::
+explosion-animation9.png::CompressedTexture2D::9087534431147041649::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/spritesheet/::1707247960
+explosion-animation.json::JSON::-1::1707247952::0::1::::<><>::
+explosion-animation.png::CompressedTexture2D::1834675440019187765::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/gifs previews/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/sprites/::1707247960
+mech-unit-export1.png::CompressedTexture2D::4323368028045289520::1707247952::1707247960::1::::<><>::
+mech-unit-export2.png::CompressedTexture2D::4657760885481712577::1707247952::1707247960::1::::<><>::
+mech-unit-export3.png::CompressedTexture2D::1446498861610867682::1707247952::1707247960::1::::<><>::
+mech-unit-export4.png::CompressedTexture2D::6256377331647558843::1707247952::1707247960::1::::<><>::
+mech-unit-export5.png::CompressedTexture2D::46536956748661229::1707247952::1707247960::1::::<><>::
+mech-unit-export6.png::CompressedTexture2D::6795493893510936418::1707247952::1707247960::1::::<><>::
+mech-unit-export7.png::CompressedTexture2D::5073089266272241211::1707247952::1707247960::1::::<><>::
+mech-unit-export8.png::CompressedTexture2D::1060926872704949242::1707247952::1707247960::1::::<><>::
+mech-unit-export9.png::CompressedTexture2D::8314111616414311322::1707247952::1707247960::1::::<><>::
+mech-unit-export10.png::CompressedTexture2D::6606275295084127674::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/spritesheet/::1707247960
+mech-unit.png::CompressedTexture2D::3560978129920488708::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/::1707247960
+bullet.png::CompressedTexture2D::5080929187137201125::1707247952::1707247960::1::::<><>::
+space-marine-die.png::CompressedTexture2D::5927171355349490275::1707247952::1707247960::1::::<><>::
+space-marine-idle.png::CompressedTexture2D::8187919104784163629::1707247952::1707247960::1::::<><>::
+space-marine-jump.png::CompressedTexture2D::8877136099658687795::1707247952::1707247960::1::::<><>::
+space-marine-run.png::CompressedTexture2D::2336435103239431818::1707247952::1707247960::1::::<><>::
+space-marine-shoot.png::CompressedTexture2D::4367996122166328593::1707247952::1707247960::1::::<><>::
+wall-impact-blast.png::CompressedTexture2D::1888710222454731437::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/::1707247960
+ship-unit-with-thrusts.png::CompressedTexture2D::1152971309151672781::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/separated sprites/::1707247960
+spaceship-unit.png::CompressedTexture2D::6989806537436289697::1707247952::1707247960::1::::<><>::
+thrust.png::CompressedTexture2D::9089572247827323065::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PSD/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/::1707247960
+tank-unit-preview.png::CompressedTexture2D::9010686298195892593::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/GIF Previews/::1707247952
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/PNG/::1707247960
+tank-unit.png::CompressedTexture2D::7597210768169474537::1707247952::1707247960::1::::<><>::
+::res://textures/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/PSD/::1707247952
+::res://документация/::1707247952
