@@ -1,10 +1,12 @@
-[gd_scene load_steps=34 format=3 uid="uid://bucaxqfyc3ggy"]
+[gd_scene load_steps=45 format=3 uid="uid://bucaxqfyc3ggy"]
 
 [ext_resource type="Texture2D" uid="uid://bhfmmg7kvpa75" path="res://textures/Bot Wheel/move with FX.png" id="1_72uyq"]
 [ext_resource type="Script" path="res://scripts/enemy.gd" id="1_opo3i"]
 [ext_resource type="Texture2D" uid="uid://dhpb1p5w77j82" path="res://textures/Bot Wheel/shoot with FX.png" id="2_35x01"]
 [ext_resource type="Texture2D" uid="uid://1b3xrvqpw6qd" path="res://textures/Bot Wheel/static idle.png" id="2_jnime"]
+[ext_resource type="Texture2D" uid="uid://i7v5o42xm0vt" path="res://textures/Bot Wheel/damaged.png" id="3_71hm6"]
 [ext_resource type="Texture2D" uid="uid://c05qef80epxsf" path="res://textures/Bot Wheel/wake.png" id="3_fbrfg"]
+[ext_resource type="Texture2D" uid="uid://cdw3x0cmewjri" path="res://textures/Bot Wheel/death.png" id="4_m0sb3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4lfp8"]
 atlas = ExtResource("2_35x01")
@@ -21,6 +23,42 @@ region = Rect2(0, 52, 58, 26)
 [sub_resource type="AtlasTexture" id="AtlasTexture_ftnkd"]
 atlas = ExtResource("2_35x01")
 region = Rect2(0, 78, 58, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_66dt4"]
+atlas = ExtResource("3_71hm6")
+region = Rect2(0, 26, 39, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_stgu8"]
+atlas = ExtResource("3_71hm6")
+region = Rect2(0, 0, 39, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_516to"]
+atlas = ExtResource("3_71hm6")
+region = Rect2(0, 26, 39, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wgg56"]
+atlas = ExtResource("4_m0sb3")
+region = Rect2(0, 0, 39, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7bfi5"]
+atlas = ExtResource("4_m0sb3")
+region = Rect2(0, 26, 39, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_44swx"]
+atlas = ExtResource("4_m0sb3")
+region = Rect2(0, 52, 39, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_efp5g"]
+atlas = ExtResource("4_m0sb3")
+region = Rect2(0, 78, 39, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0vygw"]
+atlas = ExtResource("4_m0sb3")
+region = Rect2(0, 104, 39, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_owube"]
+atlas = ExtResource("4_m0sb3")
+region = Rect2(0, 130, 39, 26)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_04sfq"]
 atlas = ExtResource("2_jnime")
@@ -123,6 +161,43 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_66dt4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_stgu8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_516to")
+}],
+"loop": true,
+"name": &"damage",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wgg56")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7bfi5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_44swx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_efp5g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0vygw")
+}, {
+"duration": 20.0,
+"texture": SubResource("AtlasTexture_owube")
+}],
+"loop": true,
+"name": &"death",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_04sfq")
 }, {
 "duration": 1.0,
@@ -204,23 +279,17 @@ radius = 40.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 collision_layer = 3
+collision_mask = 3
 script = ExtResource("1_opo3i")
 
 [node name="poprigunchik" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-<<<<<<< HEAD
-position = Vector2(-7.99999, -4)
+position = Vector2(1, 1)
 scale = Vector2(2.23077, 2.23077)
 sprite_frames = SubResource("SpriteFrames_406h1")
-animation = &"idle"
-frame_progress = 0.510206
-=======
-scale = Vector2(2.23077, 2.23077)
-sprite_frames = SubResource("SpriteFrames_406h1")
-animation = &"attack"
-frame_progress = 0.0662231
+animation = &"death"
+frame_progress = 0.0980793
 offset = Vector2(-3.5862, -1.7931)
->>>>>>> f6bd53b (lot of changes)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
@@ -236,12 +305,7 @@ collision_mask = 2
 shape = SubResource("CircleShape2D_jukyo")
 
 [node name="pid_hitbox" type="Area2D" parent="."]
-<<<<<<< HEAD
 visible = false
-collision_layer = 2
-collision_mask = 2
-=======
->>>>>>> f6bd53b (lot of changes)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="pid_hitbox"]
 shape = SubResource("CircleShape2D_snevb")
@@ -257,11 +321,12 @@ offset_right = 69.0
 offset_bottom = -15.0
 scale = Vector2(0.5, 0.5)
 
-[node name="Marker2D" type="Marker2D" parent="."]
-position = Vector2(22, 0)
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.7
 
 [connection signal="body_entered" from="DetectionArea" to="." method="_on_detection_area_body_entered"]
 [connection signal="body_exited" from="DetectionArea" to="." method="_on_detection_area_body_exited"]
 [connection signal="body_entered" from="pid_hitbox" to="." method="_on_pid_hitbox_body_entered"]
 [connection signal="body_exited" from="pid_hitbox" to="." method="_on_pid_hitbox_body_exited"]
 [connection signal="timeout" from="attack_cooldown" to="." method="_on_attack_cooldown_timeout"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

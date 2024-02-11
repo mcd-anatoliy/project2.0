@@ -11,20 +11,18 @@ var player = null
 var health = 100
 var player_inattack_range = false
 var can_take_damage = true
-<<<<<<< HEAD
-=======
 var ubili_pistoletom = false
->>>>>>> f6bd53b (lot of changes)
-
+var can_walk = true
+var umer = false
 
 func _physics_process(delta):
 	deal_with_damage()
 	health_update()
-<<<<<<< HEAD
-=======
+	
+	if umer:
+		self.queue_free()
 	
 	
->>>>>>> f6bd53b (lot of changes)
 	#гравитация
 	if not is_on_floor():
 		velocity.y += gravity * delta
@@ -32,11 +30,8 @@ func _physics_process(delta):
 	#если игрок в области
 	if player_chase:
 		position += (player.position - position) / speed #преследование игрока
-		pid.play('walk') #анимация ходьбы
-<<<<<<< HEAD
-		
-=======
->>>>>>> f6bd53b (lot of changes)
+		if can_walk:
+			pid.play('walk') #анимация ходьбы
 		#поворот бота в зависимости от направления
 		if (player.position.x - position.x) < 0:
 			pid.flip_h = true
@@ -58,10 +53,6 @@ func _on_detection_area_body_exited(_body):
 	player_chase = false
 
 
-func bullet():
-	pass
-
-
 func enemy():
 	pass
 
@@ -69,11 +60,9 @@ func enemy():
 func _on_pid_hitbox_body_entered(body):
 	if body.has_method("attack"):
 		player_inattack_range = true
-<<<<<<< HEAD
-=======
 	if body.has_method('ubiystvo'):
 		ubili_pistoletom = true
->>>>>>> f6bd53b (lot of changes)
+
 
 
 func _on_pid_hitbox_body_exited(body):
@@ -85,23 +74,27 @@ func deal_with_damage():
 	if player_inattack_range and Global.player_current_attack:
 		if can_take_damage:
 			health -= 20
+			pid.play('damage')
+			can_walk = false
 			can_take_damage = false
 			$attack_cooldown.start()
 			if health <= 0:
-				self.queue_free()
-<<<<<<< HEAD
-=======
+				pid.play("death")
+				$Timer.start()
 	if ubili_pistoletom:
 		health -= 10
+		pid.play('damage')
+		can_walk = false
 		ubili_pistoletom = false
 		$attack_cooldown.start()
 		if health <= 0:
-			self.queue_free()
->>>>>>> f6bd53b (lot of changes)
+			pid.play("death")
+			$Timer.start()
 
 
 func _on_attack_cooldown_timeout():
 	can_take_damage = true
+	can_walk = true
 
 
 func health_update():
@@ -111,3 +104,8 @@ func health_update():
 		healthbar.visible = false
 	else:
 		healthbar.visible = true
+
+
+func _on_timer_timeout():
+	umer = true
+	can_walk = false

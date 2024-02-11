@@ -8,11 +8,7 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-<<<<<<< HEAD
-func _process(delta):
-=======
 func _process(_delta):
->>>>>>> f6bd53b (lot of changes)
 	pass
 
 
